@@ -1,0 +1,43 @@
+.body{
+font-size: 16px;
+}
+.subcategory{
+border-bottom: 1px solid #eee;
+border-radius: 0;
+height: auto;
+margin: 0;
+outline: 0;
+padding: 0;
+width: 100%;
+vertical-align: top;
+display: inline-block;
+position: relative;
+}
+
+ui-link{
+text-decoration: none;
+transition-duration: .3s;
+transition-property: color;
+}
+
+.subcategory_content{
+display: inline-block;
+}
+
+.subcategory_title{
+display: block;
+position: status;
+width: 100%;
+font-weight: 400;
+line-height: 100px;
+padding-left: 10px;
+text-align: left;
+font-size: 50px;
+}
+
+a{
+color: black;
+}
+
+
+

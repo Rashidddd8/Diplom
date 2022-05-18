@@ -1,0 +1,30 @@
+.catalog-product{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 120px 56px 56px 52px;
+    padding: 12px;
+    margin-top: 100px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.catalog-product_img{
+align-content: center;
+display: flex;
+justify-content: center;
+position: relative;
+text-align: center;
+margin-right: 12px;
+width: 300px;
+height: 300px;
+grid-column: 1/auto;
+grid-row: 1/2;
+}
+
+a{
+cursor: pointer;
+text-decoration: none;
+color: black;
+}
+
